@@ -1,0 +1,12 @@
+The simple answer is that that relative tolerance and
+the relative error are two sides of an inequality
+expression known as the convergence criterion.
+
+Relative error is the calculated error in the solution attempt.
+Relative tolerance is the maximum amount of error 
+that you as the user are willing to allow in your solution.
+
+Iterative processes within the solver sequence 
+will continue to iterate on the solution attempt 
+until the calculated relative error approximation 
+drops below the pre-specified relative tolerance.
